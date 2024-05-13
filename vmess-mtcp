@@ -4,7 +4,14 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-proxies: ~
+proxies:
+  - name: vmess-kcp
+    type: vmess
+    server: 107.175.44.214
+    port: "59135"
+    uuid: 96130636-cbb5-4581-b9a1-f264c512ca91
+    alterId: "0"
+    cipher: auto
 proxy-groups:
   - name: 🚀 节点选择
     type: select
