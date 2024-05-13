@@ -76,6 +76,11 @@ proxy-groups:
       - ♻️ 自动选择
       - hysteria2
 rules:
+  - DOMAIN-SUFFIX,chino1229.top,DIRECT
+  - DOMAIN-SUFFIX,v6.army,DIRECT
+  - DOMAIN-SUFFIX,dynv6.net,DIRECT
+  - DOMAIN-SUFFIX,duckdns.org,DIRECT
+  - DOMAIN-SUFFIX,318649213.xyz,DIRECT
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
