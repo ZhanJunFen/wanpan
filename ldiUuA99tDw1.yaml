@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: hysteria2, server: 107.175.44.214, port: 443, type: hysteria2, password: uev9P6Vw1figsRZ3HcPlqzrK, auth: 3Q/XfG3Z8sxR6GMJig==, sni: clash.chino1229.top, up: 30000 Mbps, down: 20000 Mbps, skip-cert-verify: false}
+  - {name: hysteria2, server: 107.175.44.214, port: 443, type: hysteria2, password: uev9P6Vw1figsRZ3HcPlqzrK, auth: uev9P6Vw1figsRZ3HcPlqzrK, sni: clash.chino1229.top, up: 30000 Mbps, down: 20000 Mbps, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
