@@ -1,9 +1,9 @@
 server: 107.175.44.214:443
-auth: 3Q/XfG3Z8sxR6GMJig==
+auth: uev9P6Vw1figsRZ3HcPlqzrK
  
 bandwidth:
-  up: 50 mbps
-  down: 200 mbps
+  up: 50000 mbps
+  down: 20000 mbps
   
 tls:
   sni: clash.chino1229.top  # 若无域名，请改为 bing.com
