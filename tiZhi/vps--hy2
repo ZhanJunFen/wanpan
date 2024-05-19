@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: reality, server: clash.chino1229.top, port: 37262, type: vless, uuid: 0dd300a6-da82-4ba0-d0a1-eaa213321f45, tls: true, tfo: false, flow: xtls-rprx-vision, reality-opts: {public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA}, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp}
-  - {name: reality|9xnV.love@xray.com, server: clash.chino1229.top, port: 38345, type: vless, uuid: a1b303a4-a33a-4ca3-de51-282a64a0f9d9, tls: true, tfo: false, flow: xtls-rprx-vision, reality-opts: {public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14}, servername: www.speedtest.org, client-fingerprint: chrome, network: tcp}
+  - {name: reality, server: clash.318649213.xyz, port: 37262, type: vless, uuid: 0dd300a6-da82-4ba0-d0a1-eaa213321f45, tls: true, tfo: false, flow: xtls-rprx-vision, reality-opts: {public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA}, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp}
+  - {name: reality|9xnV.love@xray.com, server: clash.318649213.xyz, port: 38345, type: vless, uuid: a1b303a4-a33a-4ca3-de51-282a64a0f9d9, tls: true, tfo: false, flow: xtls-rprx-vision, reality-opts: {public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14}, servername: www.speedtest.org, client-fingerprint: chrome, network: tcp}
   - {name: VLESS-XTLS-uTLS-REALITY, server: 107.175.44.214, port: 443, type: vless, uuid: 3d184727-7438-4a2e-bc85-e33ed5a312a7, tls: true, tfo: false, flow: xtls-rprx-vision, reality-opts: {public-key: SSxQ281HhVFDnKkho9wRAoZMjgYC99ieSHzyZofV8XY}, servername: learn.microsoft.com, client-fingerprint: chrome, network: tcp}
 proxy-groups:
   - name: 🚀 节点选择
